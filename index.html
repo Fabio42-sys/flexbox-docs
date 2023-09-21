@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox documentação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <h2>Documentação</h2>
+    <h3>display: flex</h3>
+    
+    <!-- Abreviação Emmet: p.descricao-propriedade -->
+
+    <p class="descricao-propriedade">
+     
+       A propriedade display: flex deve ser a primeira a ser declarada no CSS. A partir dela é que o CSS vai entender que precisa estilizar o conteúdo do conteiner com a Caixa Flexível (Flexbox).
+
+    </p>
+
+    <p>Exemplo:</p>
+
+    <!-- Abreviação Emmet: 
+    div.container
+    div.contido  -->
+
+    <div class="container display-flex">
+
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       
+
+    </div>
+
+    <!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <caption> Valores padrão das propriedades do flexbox </caption>
+
+        <tr>
+            <th class="propriedade">Propriedade</th>
+            <th class="valor">Valor</th>
+        </tr>
+        <tr>
+            <td class="propriedade">flex-direction</td>
+            <td class="valor">row</td>
+        </tr>
+        <tr>
+            <td class="propriedade">justify-content</td>
+            <td class="valor">flex-start</td>
+        </tr>
+        <tr>
+            <td class="propriedade">align-content</td>
+            <td class="valor">flex-start</td>
+        </tr>
+    
+    </table>
+
+<h3> justify-content </h3>
+<P class="descricao-propriedade">
+
+    A propriedade justify-content pode ser usada para justificar o conteúdo do elemento em seu eixo prímario, ou seja, eixo-x (row, row-reverse) ou eixo-y (colunm, colunm-reverse)
+
+</P>
+
+<p> Exemplo: </p>
+
+<h4> Center </h4>
+<p class="descricao-propriedade">
+    
+    O valor "center" vai alinhar o conteúdo 
+</p>
+
+    <div class="container display-flex justify-content-center">
+
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+    
+    </div>
+
+<!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade">flex-direction</td>
+            <td class="valor">row</td>
+        </tr>
+        <tr>
+            <td class="propriedade">justify-content</td>
+            <td class="valor"> Center </td>
+            <tr>
+                <td class="propriedade">align-content</td>
+                <td class="valor"> Center </td>
+            </tr>
+    
+        </tr>
+        
+    </table>
+
+<h5> Space-between </h5>
+<p class="descricao-propriedade">
+
+    O valor "space-between" vai alinhar o conteúdo
+</p>
+
+<div class="container display-flex justify-content-space-between">
+
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+
+</div>
+
+<table>
+    <tr>
+        <th class="propriedade"> Propriedade </th>
+        <th class="valor"> Valor </th>
+    </tr>
+    <tr>
+        <td class="propriedade">flex-direction</td>
+        <td class="valor">row</td>
+    </tr>
+    <tr>
+        <td class="propriedade">justify-content</td>
+        <td class="valor"> Space-between </td>
+        <tr>
+            <td class="propriedade">align-content</td>
+            <td class="valor"> Space-between </td>
+        </tr>
+
+    </tr>
+    
+</table>
+
+<h6> Space-around </h6>
+<p class="descricao-propriedade">
+
+      O valor "space-around" vai alinhar o conteúdo 
+</p>
+
+<div class="container display-flex justify-content-around"> 
+
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+
+</div>
+
+<table>
+    <tr>
+        <th class="propriedade"> Propriedade </th>
+        <th class="valor"> Valor </th>
+    </tr>
+    <tr>
+        <td class="propriedade">flex-direction</td>
+        <td class="valor">row</td>
+    </tr>
+    <tr>
+        <td class="propriedade">justify-content</td>
+        <td class="valor"> Space-around </td>
+        <tr>
+            <td class="propriedade">align-content</td>
+            <td class="valor"> Space-around </td>
+        </tr>
+
+    </tr>
+</table>
+
+<h6> space-evenly </h6>
+<p class="descricao-propriedade">
+
+      O valor "space-evenly" vai alinhar o conteúdo
+</p>
+
+<div class="container display-flex justify-content-evenly"> 
+
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+       <div class="contido"></div>
+
+</div>
+
+<!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade">flex-direction</td>
+            <td class="valor">row</td>
+        </tr>
+        <tr>
+            <td class="propriedade">justify-content</td>
+            <td class="valor"> Space-evenly </td>
+            <tr>
+                <td class="propriedade">align-content</td>
+                <td class="valor"> Space-evenly </td>
+            </tr>
+    
+        </tr>
+
+    </body>
+</html>

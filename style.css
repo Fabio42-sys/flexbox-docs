@@ -1,0 +1,133 @@
+/* (Mini) Reset do CSS para resetar as propriedades que são aplicadas pelo navegador, a fim de eliminar incompatibilidades entre navegadores */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: initial;
+    font-weight: initial;
+    text-align: initial;
+    
+    }
+    
+    /* Estilos definidos para a pagina de documentação */
+    
+    body {
+
+    width: 90%;
+    margin: auto;
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+    
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+        
+    h1 {
+    
+        font-size: 32pt;
+    
+    }
+    
+    h2 {
+
+    font-size: 26px;
+    margin-top: 10px;
+
+    }
+
+    h3 {
+
+    font-size: 22px;
+
+    }
+
+    h4 {
+
+    font-size: 18px;
+
+    }
+
+    h5 {
+
+    font-size: 14px;
+
+    }
+
+    p, table {
+
+    margin: 20px 0;
+    
+    }
+
+    p {
+
+    line-height: 1.5;
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: justify;
+
+    }
+
+    td,th {
+
+     font-size: 16px;
+
+    }
+
+    tr:nth-child(odd) {
+
+    background-color: coral;
+
+    }
+
+    .container {
+        
+    height: 300px;
+    background-color: antiquewhite;
+    border: 5px solid #ff0000;
+    
+    
+    }
+    
+    .contido {
+    
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        border: 5px solid #0000ff;
+    
+    }
+    
+    .display-flex {
+    
+        display: flex;
+        
+    }
+
+    .justify-content-center {
+
+        justify-content: center;
+
+    }
+
+    .justify-content-space-between {
+
+       justify-content: space-between;
+
+    }
+
+    .justify-content-around {
+
+      justify-content: space-around;
+
+    }
+
+    .justify-content-evenly {
+
+      justify-content: space-evenly;
+
+    }
