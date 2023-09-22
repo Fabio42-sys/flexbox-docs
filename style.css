@@ -86,7 +86,7 @@
 
     .container {
         
-    height: 300px;
+    height: 600px;
     background-color: antiquewhite;
     border: 5px solid #ff0000;
     
@@ -95,8 +95,8 @@
     
     .contido {
     
-        width: 100px;
-        height: 100px;
+        width: initial;
+        height: initial;
         background-color: aqua;
         border: 5px solid #0000ff;
     
@@ -108,7 +108,7 @@
         
     }
 
-    .justify-content-center {
+.justify-content-center {
 
         justify-content: center;
 
@@ -131,3 +131,52 @@
       justify-content: space-evenly;
 
     }
+
+    .row {
+
+        flex-direction: row;
+
+    }
+
+    .row-reverse {
+
+    flex-direction: row-reverse;
+
+    }
+
+    .column {
+
+    flex-direction: column;
+
+    }
+
+    .column-reverse {
+
+        flex-direction: column-reverse;
+    
+    }
+
+
+.stretch {
+
+    align-items: stretch;
+
+}
+
+.center {
+
+    align-items: center;
+
+}
+
+.start {
+
+    align-items: start;
+
+}
+
+.end {
+
+    align-items: start;
+
+}

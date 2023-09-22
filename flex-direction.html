@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox documentação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1> Flexbox </h1>
+    <h2> Documentação </h2>
+    <h3> flex-direction </h3>
+
+    <p class="descricao-propriedade">
+
+    A propriedade "flex-direction" determina a direção que a flexbox será alinhada
+
+    </p>
+
+    <p> Exemplo: </p>
+
+    <div class="container display-flex row">
+
+    <div class="contido">1</div>
+    <div class="contido">2</div>
+    <div class="contido">3</div>
+    <div class="contido">4</div>
+    <div class="contido">5</div>
+
+    </div>
+
+<!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade"> flex-direction </td>
+            <td class="valor"> row </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> justify-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> align-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+    </table>
+
+<h4> flex-direction: row-reverse </h4>
+
+<p class="descricao-propriedade">
+
+    A propriedade "flex-direction: row" alinha as caixas em uma linha reta
+
+</p>
+
+<p> Exemplo: </p>
+
+<div class="container display-flex row-reverse">
+
+<div class="contido">1</div>
+<div class="contido">2</div>
+<div class="contido">3</div>
+<div class="contido">4</div>
+<div class="contido">5</div>
+
+</div>
+
+<!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade"> flex-direction </td>
+            <td class="valor"> row-reverse </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> justify-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> align-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+    </table>
+
+    <p class="descricao-propriedade">
+
+        A propriedade "flex-direction: column" alinha as caixas em uma coluna 
+
+    </p>
+
+    <p> Exemplo: </p>
+
+    <div class="container display-flex column">
+
+    <div class="contido">1</div>
+    <div class="contido">2</div>
+    <div class="contido">3</div>
+    <div class="contido">4</div>
+    <div class="contido">5</div>
+
+    </div>
+
+    <!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade"> flex-direction </td>
+            <td class="valor"> column </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> justify-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> align-content </td>
+            <td class="valor"> flex-direction </td>
+        </tr>
+    </table>
+
+    <p class="descricao-propriedade">
+
+        A propriedade "column-reverse" tem a mesma função da propriedade "column" mas faz isso intertido 
+
+    </p>
+
+    <p> Exemplo: </p>
+
+    <div class="container display-flex column-reverse">
+
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+
+    </div>
+
+    <!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade"> flex-direction </td>
+            <td class="valor"> column-reverse </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> justify-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+        <tr>
+            <td class="propriedade">   align-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <a href="./justify-content.html"> ↤ justify-content </a>
+
+    <br>
+    
+    <a href="./align-itens.html"> Align-itens ↦ </a>
+
+</body>
+</html>
