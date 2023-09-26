@@ -14,7 +14,7 @@
 
     <p class="descricao-propriedade">
 
-        A propriedade "align-itens" gera os valores de todas as caixas dentro do container
+        A propriedade "stretch" do "align-items" gera os valores de todas as caixas dentro do container
 
     </p>
 
@@ -22,11 +22,11 @@
 
     <div class="container display-flex stretch">
     
-    <div class="contido">1</div>
-    <div class="contido">2</div>
-    <div class="contido">3</div>
-    <div class="contido">4</div>
-    <div class="contido">5</div>
+    <div class="especial">1</div>
+    <div class="especial">2</div>
+    <div class="especial">3</div>
+    <div class="especial">4</div>
+    <div class="especial">5</div>
 
     </div>
 
@@ -44,50 +44,10 @@
         </tr>
         <tr>
             <td class="propriedade"> justify-content </td>
-            <td class="valor"> flex-start </td>
+            <td class="valor"> space-evenly </td>
         </tr>
         <tr>
             <td class="propriedade"></td>
-            <td class="valor"> flex-start </td>
-        </tr>
-    </table>
-
-    <p class="descricao-propriedade">
-
-    A propriedade "center" diminui o tamanho das caixas (.contidos) e as centraliza-las com os centros do eixo da "altura"
-
-    </p>
-
-    <p> Exemplo: </p>
-
-    <div class="container display-flex center">
-
-    <div class="contidos">1</div>
-    <div class="contidos">2</div>
-    <div class="contidos">3</div>
-    <div class="contidos">4</div>
-    <div class="contidos">5</div>
-
-    </div>
-
-    <!-- Abreviação Emmet:
-    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
-
-    <table>
-        <tr>
-            <th class="propriedade"> Propriedade </th>
-            <th class="valor"> Valor </th>
-        </tr>
-        <tr>
-            <td class="propriedade"> align-itens </td>
-            <td class="valor"> central </td>
-        </tr>
-        <tr>
-            <td class="propriedade"> justify-content </td>
-            <td class="valor"> flex-start </td>
-        </tr>
-        <tr>
-            <td class="propriedade"> align-content </td>
             <td class="valor"> flex-start </td>
         </tr>
     </table>
@@ -124,13 +84,53 @@
         </tr>
         <tr>
             <td class="propriedade"> justify-content </td>
-            <td class="valor"> flex-start </td>
+            <td class="valor"> space-evenly  </td>
         </tr>
         <tr>
             <td class="propriedade"> align-itens </td>
             <td class="valor"> flex-start </td>
         </tr>
     </table>
+
+    <p class="descricao-propriedade">
+
+        A propriedade "center" diminui o tamanho das caixas (.contidos) e as centraliza-las com os centros do eixo da "altura"
+    
+        </p>
+    
+        <p> Exemplo: </p>
+    
+        <div class="container display-flex center">
+    
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+    
+        </div>
+    
+        <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+    
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-itens </td>
+                <td class="valor"> central </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> justify-content </td>
+                <td class="valor"> space-evenly </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> flex-start </td>
+            </tr>
+        </table>
 
     <p class="discricao-propriedade">
 
@@ -164,7 +164,7 @@
         </tr>
         <tr>
             <td class="propriedade"> justify-content </td>
-            <td class="valor"> flex-start </td>
+            <td class="valor"> space-evenly </td>
         </tr>
         <tr>
             <td class="propriedade"> align-content </td>
@@ -174,11 +174,17 @@
 
     <br>
 
-        <a href="./flex-direction.html"> ↤ Flex direction </a>
+        <a href="./justify-content.html"> ← ← Justify content </a>
 
         <br>
         
-        <a href="./justify-content.html"> ⇇ justify-content </a>
+        <a href="./flex-direction.html"> ← Flex direction </a>
+
+        <br>
+
+        <a href="./flex-wrap.html"> Flex wrap → </a> 
        
+
+
 </body>
 </html>

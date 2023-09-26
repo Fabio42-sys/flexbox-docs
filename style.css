@@ -80,27 +80,29 @@
 
     tr:nth-child(odd) {
 
-    background-color: coral;
+       background-color: coral;
 
     }
 
     .container {
         
-    height: 600px;
-    background-color: antiquewhite;
-    border: 5px solid #ff0000;
+       height: 600px;
+       background-color: antiquewhite;
+       border: 5px solid #ff0000;
     
     
     }
     
     .contido {
     
-        width: initial;
-        height: initial;
+        width: 90px;
+        height: 90px;
         background-color: aqua;
         border: 5px solid #0000ff;
     
     }
+
+    /* Display-flex */
     
     .display-flex {
     
@@ -108,7 +110,9 @@
         
     }
 
-.justify-content-center {
+    /* Justify-content */
+
+    .justify-content-center {
 
         justify-content: center;
 
@@ -122,61 +126,104 @@
 
     .justify-content-around {
 
-      justify-content: space-around;
+       justify-content: space-around;
 
     }
 
     .justify-content-evenly {
 
-      justify-content: space-evenly;
+       justify-content: space-evenly;
 
     }
+
+    /* Flex-direction */
 
     .row {
 
         flex-direction: row;
+        justify-content: space-evenly;
 
     }
 
     .row-reverse {
 
-    flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
 
     }
 
     .column {
 
-    flex-direction: column;
+        flex-direction: column;
+        justify-content: space-evenly;
 
     }
 
     .column-reverse {
 
         flex-direction: column-reverse;
+        justify-content: space-evenly;
     
     }
 
+    /* Align-items */
 
-.stretch {
+    .stretch {
 
-    align-items: stretch;
+       align-items: stretch;
+       justify-content: space-evenly;
 
-}
+    }
 
-.center {
+    .especial {
 
-    align-items: center;
+        width: initial;
+        height: initial;
+        background-color: aqua;
+        border: 5px solid #0000ff;
 
-}
+    }
 
-.start {
+    .center {
 
-    align-items: start;
+        align-items: center;
+        justify-content: space-evenly;
 
-}
+    }
 
-.end {
+    .start {
 
-    align-items: start;
+        align-items: start;
+        justify-content: space-evenly;
 
-}
+    }
+
+    .end {
+
+       align-items: end;
+       justify-content: space-evenly;
+
+    }
+
+    /* Flex-wrap */
+
+    .nowrap {
+
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
+
+    .wrap {
+
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .wrap-reverse {
+
+        flex-wrap: wrap-reverse;
+        justify-content: space-evenly;
+
+    }

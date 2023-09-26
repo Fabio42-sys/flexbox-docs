@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox documentação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1> Flexbox </h1>
+    <h2> Documentação </h2>
+    <h3> flex-wrap </h3>
+
+    <p class="descricao-propriedade">
+
+        A propriedade "flex-wrap" define as caixas (.contido) que podem ser forçadas em uma linha ou podem ser agrupados em várias linhas. Se o empacotamento for permitido, ele define a direção em que as linhas serão empilhadas.
+
+    </p>
+
+    <p> Exemplo: </p>
+
+    <div class="container display-flex nowrap">
+
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+
+    </div>
+
+    <!-- Abreviação Emmet:
+    table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <tr>
+            <th class="propriedade"> Propriedade </th>
+            <th class="valor"> Valor </th>
+        </tr>
+        <tr>
+            <td class="propriedade"> flex-wrap </td>
+            <td class="valor"> nowrap </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> justify-content </td>
+            <td class="valor"> space-evenly </td>
+        </tr>
+        <tr>
+            <td class="propriedade"> align-content </td>
+            <td class="valor"> flex-start </td>
+        </tr>
+    </table>
+
+    <p class="descricao-propriedade">
+
+        A propriedade "wrap" define as caixas (.contidos) são forçadas em uma linha ou podem ser agrupados em várias linhas. Se for permitido, ele define a direção em que as linhas serão empilhadas.
+    
+    </p>
+
+    <div class="container display-flex wrap">
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+        <div class="contido">6</div>
+        <div class="contido">7</div>
+        <div class="contido">8</div>
+        <div class="contido">9</div>
+        <div class="contido">10</div>
+        <div class="contido">11</div>
+        <div class="contido">12</div>
+        <div class="contido">13</div>
+        <div class="contido">14</div>
+        <div class="contido">15</div>
+        <div class="contido">16</div>
+        <div class="contido">17</div>
+        <div class="contido">18</div>
+        <div class="contido">19</div>
+        <div class="contido">20</div>
+
+    </div>
+
+    <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> flex-wrap </td>
+                <td class="valor"> wrap </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> justify-content </td>
+                <td class="valor"> space-evenly </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> flex-start </td>
+            </tr>
+        </table>
+
+        <p class="descricao-propriedade">
+
+            A propriedade "wrap-reverse" tem a mesma função do "wrap" mas ao seu inverso 
+
+        </p>
+
+        <div class="container display-flex wrap-reverse">
+
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
+
+        </div>
+
+        <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> flex-wrap </td>
+                <td class="valor"> wrap-reverse </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> Justify-content </td>
+                <td class="valor"> space-evenly </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> flex-start </td>
+            </tr>
+        </table>
+
+    <br>
+
+        <a href="./align-items.html"> ← Align-itens  </a>
+
+        <br>
+
+        <a href="./flex-direction.html"> ← ← Flex direction </a> 
+
+        <br>
+
+        <a href="./justify-content.html"> ← ← ← Justify-content </a>
+
+        
+
+</body>
+</html>
