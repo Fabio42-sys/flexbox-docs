@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexbox documentação </title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <h1> Flexbox </h1>
+    <h2> Documentação </h2>
+    <h3> align-content </h3>
+
+    <p class="descricao-propriedade">
+
+        A propriedade "align-content" assim como a propriedade "justify-content" é responsavel pelo alinhamento das caixas (.contido)
+
+    </p>
+
+    <p> Exemplo: </p>
+
+    <div class="container-especial display-flex start">
+
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+        <div class="contido">6</div>
+        <div class="contido">7</div>
+        <div class="contido">8</div>
+        <div class="contido">9</div>
+        <div class="contido">10</div>
+        <div class="contido">11</div>
+        <div class="contido">12</div>
+        <div class="contido">13</div>
+        <div class="contido">14</div>
+        <div class="contido">15</div>
+        <div class="contido">16</div>
+        <div class="contido">17</div>
+        <div class="contido">18</div>
+        <div class="contido">19</div>
+        <div class="contido">20</div>
+
+    </div>
+
+    <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> start </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> justify-content </td>
+                <td class="valor"> space-evenly </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> flex-wrap </td>
+                <td class="valor"> wrap </td>
+            </tr>
+        </table>
+
+        <p class="descricao-propriedade">
+
+            A propriedade "align-content: center" alinha as caixas (.contido) ao centro da pagina
+
+        </p>
+    
+        <p> Exemplo: </p>
+
+        <div class="container-especial display-flex center">
+
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
+            <div class="contido">6</div>
+            <div class="contido">7</div>
+            <div class="contido">8</div>
+            <div class="contido">9</div>
+            <div class="contido">10</div>
+            <div class="contido">11</div>
+            <div class="contido">12</div>
+            <div class="contido">13</div>
+            <div class="contido">14</div>
+            <div class="contido">15</div>
+            <div class="contido">16</div>
+            <div class="contido">17</div>
+            <div class="contido">18</div>
+            <div class="contido">19</div>
+            <div class="contido">20</div>
+
+        </div>
+
+        <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> center </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> justify-content </td>
+                <td class="valor"> space-evenly </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> flex-wrap </td>
+                <td class="valor"> wrap </td>
+            </tr>
+        </table>
+
+        <p class="descricao-propriedade">
+
+            A propriedade "align-content: space-between" alinha todas as caixas (.contido) com um espaçamento desigual entre as mesmas
+
+        </p>
+
+        <div class="container-especial display-flex space-between">
+
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+        <div class="contido">6</div>
+        <div class="contido">7</div>
+        <div class="contido">8</div>
+        <div class="contido">9</div>
+        <div class="contido">10</div>
+        <div class="contido">11</div>
+        <div class="contido">12</div>
+        <div class="contido">13</div>
+        <div class="contido">14</div>
+        <div class="contido">15</div>
+        <div class="contido">16</div>
+        <div class="contido">17</div>
+        <div class="contido">18</div>
+        <div class="contido">19</div>
+        <div class="contido">20</div>
+
+        </div>
+
+        <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> space-between </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> justify-content </td>
+                <td class="valor"> space-evenly </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> flex-wrap </td>
+                <td class="valor"> wrap </td>
+            </tr>
+        </table>
+
+        <p class="descricao-propriedade">
+
+            A propriedade "align-content: space-around" alinha as caixas (.contido) com um espaçamento "igual" entre as mesmas 
+
+        </p>
+
+        <p> Exemplo: </p>
+
+        <div class="container-especial display-flex space-around">
+
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
+            <div class="contido">6</div>
+            <div class="contido">7</div>
+            <div class="contido">8</div>
+            <div class="contido">9</div>
+            <div class="contido">10</div>
+            <div class="contido">11</div>
+            <div class="contido">12</div>
+            <div class="contido">13</div>
+            <div class="contido">14</div>
+            <div class="contido">15</div>
+            <div class="contido">16</div>
+            <div class="contido">17</div>
+            <div class="contido">18</div>
+            <div class="contido">19</div>
+            <div class="contido">20</div>
+
+        </div>
+
+        <!-- Abreviação Emmet:
+        table>(tr>th.propriedade*+th.valor)+tr*3>td.propriedade+td.valor -->
+        
+        <table>
+            <tr>
+                <th class="propriedade"> Propriedade </th>
+                <th class="valor"> Valor </th>
+            </tr>
+            <tr>
+                <td class="propriedade"> align-content </td>
+                <td class="valor"> space-around </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> justify-content </td>
+                <td class="valor"> flex-start </td>
+            </tr>
+            <tr>
+                <td class="propriedade"> flex-wrap </td>
+                <td class="valor"> wrap </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <a href="./flex-flow.html"> ← Flex flow </a>
+
+        <br>
+
+        <a href="./flex-wrap.html"> ← ← Flex wrap </a>
+
+        <br>
+
+        <a href="./align-items.html"> ← ← ← Align items </a>
+
+        <br>
+
+        <a href="./flex-direction.html"> ← ← ← ← Flex direction </a>
+
+        <br> 
+
+        <a href="./justify-content.html"> ← ← ← ← ← Justify content </a>
+
+
+</body>
+</html>
